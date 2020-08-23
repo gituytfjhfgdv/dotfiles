@@ -63,3 +63,7 @@ endfunction
 let g:coc_global_extentions = ['coc-solargraph']
 let g:AutoPairsFlyMode = 1
 let g:AutoPairsShortcutBackInsert = '<M-b>'
+
+" git commitのメッセージをpaneで開く
+let $GIT_EDITOR = 'nvr -cc split --remote-wait'
+autocmd FileType gitcommit set bufhidden=delete
