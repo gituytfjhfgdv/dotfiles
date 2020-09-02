@@ -24,6 +24,7 @@ Plug 'honza/vim-snippets'
 Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
+Plug 'elmcast/elm-vim'
 call plug#end()
 colorscheme nord
 let g:airline#extensions#tabline#enabled = 1
