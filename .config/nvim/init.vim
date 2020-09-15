@@ -68,3 +68,15 @@ let g:AutoPairsShortcutBackInsert = '<M-b>'
 " git commitのメッセージをpaneで開く
 let $GIT_EDITOR = 'nvr -cc split --remote-wait'
 autocmd FileType gitcommit set bufhidden=delete
+
+"タブ系----------------------------------
+"タブ文字を半角スペースに
+set expandtab
+"行頭でのタブ幅
+set shiftwidth=2
+"行頭以外でのタブ幅
+set tabstop=2
+"インデント変更時にshiftwidthの倍数に丸める
+set shiftround
+"インデントを賢く
+set smartindent
