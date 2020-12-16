@@ -9,12 +9,10 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'jacoborus/tender.vim'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'Yggdroot/indentLine'
-Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
-Plug 'xuyuanp/nerdtree-git-plugin', { 'on': 'NERDTreeToggle' }
 Plug 'sheerun/vim-polyglot'
 Plug 'dense-analysis/ale'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
